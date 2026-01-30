@@ -84,10 +84,10 @@ static const int mouse_button_values[] = {-1, MOUSE_BUTTON_LEFT, MOUSE_BUTTON_CE
 #define DOUBLE_CLICK_DELAY_DEFAULT 300
 
 #define ENABLE_DOUBLE_CLICK_DELAY_CFG CFG_PREFIX "enable-double-click-delay"
-#define ENABLE_DOUBLE_CLICK_DELAY_DEFAULT false
+#define ENABLE_DOUBLE_CLICK_DELAY_DEFAULT true
 
 #define IGNORE_DOUBLE_CLICK_CFG CFG_PREFIX "ignore-double-click"
-#define IGNORE_DOUBLE_CLICK_DEFAULT false
+#define IGNORE_DOUBLE_CLICK_DEFAULT true
 
 #define DISABLE_FS_TOGGLE_CFG CFG_PREFIX "disable-fs-toggle"
 #define DISABLE_FS_TOGGLE_DEFAULT false
